@@ -6,7 +6,7 @@ module.exports = {
   functionName: '', //name
   timeout: 10,
   memorySize: 128,
-  publish: true, // set this to false if you don't want 
+  publish: true, // this creates a new version of your Lambda function every time you update it
   runtime: 'nodejs', // for node 10, otherwise use 'nodejs4.3'
 }
 

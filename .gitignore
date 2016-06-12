@@ -1,0 +1,7 @@
+#config
+botfiles/config.js
+lambda-config.js
+node_modules/*
+
+#OS junk files
+*.DS_Store

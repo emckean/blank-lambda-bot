@@ -1,7 +1,7 @@
 var Twit = require('twit');
 var wordfilter = require('wordfilter');
 var T = new Twit(require('botfiles/config.js'));
-var myText = require('botfiles/sample-text.js')
+var myText = require('botfiles/sample-text.js');
 
 //a nice 'pick' function thanks to Darius Kazemi: https://github.com/dariusk
 Array.prototype.pick = function() {
@@ -27,11 +27,11 @@ Array.prototype.pick = function() {
 
 function pickTweet(){
       var tweetText = myText.pick();
-      if (phraseOK(phrase)) {
-        return phrase;
+      if (tweetOK(tweetText)) {
+        return tweetText;
       }
       else {
-        myPhrase = pickPhrase();
+        tweetText = pickTweet();
       }
   }
 

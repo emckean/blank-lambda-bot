@@ -16,13 +16,6 @@
   "license": "ISC",
   "repository": "https://github.com/emckean/blank-lambda-bot",
   "devDependencies": {
-    "node-aws-lambda": "^0.1.8"
-  },
-  "dependencies": {
-    "twit": "^2.2.4",
-    "wordfilter": "^0.2.6"
-  },
-  "devDependencies": {
     "chai": "^3.5.0",
     "del": "^2.2.0",
     "gulp": "^3.9.1",
@@ -34,5 +27,11 @@
     "node-aws-lambda": "^0.1.8",
     "rewire": "^2.5.1",
     "run-sequence": "^1.2.1"
+  },
+  "dependencies": {
+    "botfiles": "file:///Users/emckean/Code/blank-lambda-bot/botfiles",
+    "twit": "^2.2.4",
+    "underscore": "^1.8.3",
+    "wordfilter": "^0.2.6"
   }
 }
