@@ -61,4 +61,4 @@ Your function will now be available in the Lambda console! You can configure a t
 You can also set up your bot to run on a schedule using the "Event Sources" tab in the Lambda function console. 
 
 ##Thank Yous
-Thanks to [Darius Kazemi](https://github.com/dariusk) for the wordfilter module and for the .pick function. Thanks to [Thoughtworks](https://github.com/ThoughtWorksStudios) for the wonderful [node-aws-lambda](https://github.com/ThoughtWorksStudios/node-aws-lambda) module. Thanks also to [Allison Parrish](https://twitter.com/aparrish) and David Celis for reviewing; all errors remain the exclusive property & reponsibility of the author. :-)
+Thanks to [Darius Kazemi](https://github.com/dariusk) for the wordfilter module and for the .pick function. Thanks to [Thoughtworks](https://github.com/ThoughtWorksStudios) for the wonderful [node-aws-lambda](https://github.com/ThoughtWorksStudios/node-aws-lambda) module. Thanks also to [Allison Parrish](https://twitter.com/aparrish) and David Celis for reviewing; all errors remain the exclusive property & responsibility of the author. :-)
