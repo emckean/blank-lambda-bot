@@ -1,7 +1,7 @@
 #Blank AWS Lambda Bot
 
 ##Instructions
-There's a more detailed writeup [here].()
+There's a more detailed writeup [here.](https://medium.com/@emckean/create-a-simple-free-text-driven-twitterbot-with-aws-lambda-node-js-b80e26209f5#.fwl8p9ikf)
 
 Prerequisites: I assume you have node and npm installed. Need help installing either? [Here's a link for you.](http://blog.npmjs.org/post/85484771375/how-to-install-npm)
 
