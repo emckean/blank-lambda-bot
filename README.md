@@ -59,3 +59,6 @@ To deploy, run the tests (and also `gulp lint`). When you're happy with that out
 Your function will now be available in the Lambda console! You can configure a test event there (use '{}') and try it out! 
 
 You can also set up your bot to run on a schedule using the "Event Sources" tab in the Lambda function console. 
+
+##Thank Yous
+Thanks to [Darius Kazemi](https://github.com/dariusk) for the wordfilter module and for the .pick function. Thanks to [Thoughtworks](https://github.com/ThoughtWorksStudios) for the wonderful [node-aws-lambda](https://github.com/ThoughtWorksStudios/node-aws-lambda) module.
