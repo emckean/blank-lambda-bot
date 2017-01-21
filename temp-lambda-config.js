@@ -7,7 +7,7 @@ module.exports = {
   timeout: 10,
   memorySize: 128,
   publish: true, // this creates a new version of your Lambda function every time you update it
-  runtime: 'nodejs', // for node 10, otherwise use 'nodejs4.3'
+  runtime: 'nodejs4.3', // for nodeJS 4.3 as nodeJS 0.10 is no longer supported by AWS
 }
 
 //see other options here: https://github.com/ThoughtWorksStudios/node-aws-lambda
